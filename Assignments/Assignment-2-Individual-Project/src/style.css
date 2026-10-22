@@ -1,1 +1,87 @@
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 100%;
+  margin: 6px 0 14px;
+  font-size: 16px;
+}
+
+.assignment-card {
+  background: white;
+  padding: 18px;
+  margin-top: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000010;
+}
+
+.completed {
+  border-left: 5px solid #16a34a;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 94%;
+    margin: 16px auto;
+  }
+
+  header {
+    padding: 18px;
+  }
+}
+
